@@ -180,52 +180,7 @@ function time() {
     t = setTimeout(time, 1000);
 }
 
-//链接提示文字
-$("#social").mouseover(function () {
-    $("#social").css({
-        "background": "rgb(0 0 0 / 25%)",
-        'border-radius': '6px',
-        "backdrop-filter": "blur(5px)"
-    });
-    $("#link-text").css({
-        "display": "block",
-    });
-}).mouseout(function () {
-    $("#social").css({
-        "background": "none",
-        "border-radius": "6px",
-        "backdrop-filter": "none"
-    });
-    $("#link-text").css({
-        "display": "none"
-    });
-});
 
-$("#github").mouseover(function () {
-    $("#link-text").html("去 Github 看看");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#qq").mouseover(function () {
-    $("#link-text").html("有什么事吗");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#email").mouseover(function () {
-    $("#link-text").html("来封 Email");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#telegram").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#twitter").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
 
 //自动变灰
 var myDate = new Date;
@@ -310,7 +265,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("上に上に堕ちる夢を 祈っていいですか");
+            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
@@ -362,7 +317,8 @@ color: rgb(244,167,89);
 var styleContent = `
 color: rgb(30,152,255);
 `
+var title1 = '时雨の主页'
 
-`
+
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
