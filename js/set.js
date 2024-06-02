@@ -118,11 +118,10 @@ function setBgImgInit() {
 			pictures[9] = './img/10.jpg';
 			pictures[10] = './img/11.jpg';
 			pictures[11] = './img/12.jpg';
-			pictures[12] = './img/13.jpg';
-			pictures[13] = './img/14.jpg';
+			
 			
             
-            var rd = Math.floor(Math.random() * 14);
+            var rd = Math.floor(Math.random() * 12);
             $('#bg').attr('src', pictures[rd]) //随机默认壁纸
             break;
         case "2":
