@@ -106,11 +106,23 @@ function setBgImgInit() {
     switch (bg_img["type"]) {
         case "1":
             var pictures = new Array();
-            pictures[0] = './img/background1.jpg';
-            pictures[1] = './img/background2.jpg';
+            pictures[0] = './img/1.jpg';
+            pictures[1] = './img/2.jpg';
+            pictures[2] = './img/3.jpg';
+			pictures[3] = './img/4.jpg';
+			pictures[4] = './img/5.jpg';
+			pictures[5] = './img/6.jpg';
+			pictures[6] = './img/7.jpg';
+			pictures[7] = './img/8.jpg';
+			pictures[8] = './img/9.jpg';
+			pictures[9] = './img/10.jpg';
+			pictures[10] = './img/11.jpg';
+			pictures[11] = './img/12.jpg';
+			pictures[12] = './img/13.jpg';
+			pictures[13] = './img/14.jpg';
+			
             
-            
-            var rd = Math.floor(Math.random() * 2);
+            var rd = Math.floor(Math.random() * 14);
             $('#bg').attr('src', pictures[rd]) //随机默认壁纸
             break;
         case "2":
