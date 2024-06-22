@@ -104,21 +104,21 @@ function setBgImgInit() {
     switch (bg_img["type"]) {
         case "1":
             var pictures = new Array();
-            pictures[0] = './img/1.jpg';
-            pictures[1] = './img/2.jpg';
-            pictures[2] = './img/3.jpg';
-			pictures[3] = './img/4.jpg';
-			pictures[4] = './img/5.jpg';
-			pictures[5] = './img/6.jpg';
-			pictures[6] = './img/7.jpg';
-			pictures[7] = './img/8.jpg';
-			pictures[8] = './img/9.jpg';
-			pictures[9] = './img/10.jpg';
-			pictures[10] = './img/11.jpg';
-			pictures[11] = './img/12.jpg';
-            pictures[12] = './img/13.jpg';
-            pictures[13] = './img/14.jpg';
-            pictures[14] = './img/15.jpg';
+            pictures[0] = 'https://img.picgo.net/2024/06/23/1de68e1c1075e5341.jpg';
+            pictures[1] = 'https://img.picgo.net/2024/06/23/2233ea3159193d82b.jpg';
+            pictures[2] = 'https://img.picgo.net/2024/06/23/3534a4e978cc195a0.jpg';
+			pictures[3] = 'https://img.picgo.net/2024/06/23/4d919a7b7a9772c03.jpg';
+			pictures[4] = 'https://img.picgo.net/2024/06/23/5fce1f2dfba34780a.jpg';
+			pictures[5] = 'https://img.picgo.net/2024/06/23/67723b35170eb541a.jpg';
+			pictures[6] = 'https://img.picgo.net/2024/06/23/7737fb9103f7a8141.jpg';
+			pictures[7] = 'https://img.picgo.net/2024/06/23/89f502927b36ba2a8.jpg';
+			pictures[8] = 'https://img.picgo.net/2024/06/23/94c7f13de92babdde.jpg';
+			pictures[9] = 'https://img.picgo.net/2024/06/23/10309c329a6f095238.jpg';
+			pictures[10] = 'https://img.picgo.net/2024/06/23/11f32559b3b5844c84.jpg';
+			pictures[11] = 'https://img.picgo.net/2024/06/23/120830923d3356a6ef.jpg';
+            pictures[12] = 'https://img.picgo.net/2024/06/23/13e7099624b9508512.jpg';
+            pictures[13] = 'https://img.picgo.net/2024/06/23/14cb4c05e331821be9.jpg';
+            pictures[14] = 'https://img.picgo.net/2024/06/23/15531f5b626698e6a4.jpg';
            var rd = Math.floor(Math.random() * 15);
             $('#bg').attr('src', pictures[rd]) //随机默认壁纸
             break;
